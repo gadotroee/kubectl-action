@@ -1,0 +1,9 @@
+name: 'kubectl-alpine'
+description: 'The kubectl command line program as a GitHub Action'
+author: 'Up9'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
+branding:
+  icon: 'terminal'
+  color: 'blue'
